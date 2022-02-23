@@ -49,7 +49,7 @@ export function getBuildURL() {
 
 	switch (build) {
 		case 'dev': return 'http://local.revolt.chat:3001';
-		case 'nightly': return 'https://nightly.revolt.chat';
-		default: return 'https://app.revolt.chat';
+		case 'nightly': return 'https://dev.nosadnile.net';
+		default: return 'https://chat.nosadnile.net';
 	}
 }
